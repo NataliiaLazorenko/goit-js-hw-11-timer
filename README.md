@@ -1,32 +1,32 @@
 # Таймер зворотного відліку
 
-## Умова завдання:
+### Завдання:
 
 Cтворити плагін налаштовуваного таймера, який веде зворотний відлік до попередньо визначеної дати. Такий плагін може використовуватися в блогах і інтернет-магазинах та на сторінках реєстрації подій, під час технічного обслуговування і т. д.
 
 Плагін очікує наступну HTML-розмітку і показує чотири цифри: дні, години, хвилини і секунди в форматі XX:XX:XX:XX. Кількість днів може складатися з більш ніж двох цифр.
 
-<div class="timer" id="timer-1">
-  <div class="field">
-    <span class="value" data-value="days">11</span>
-    <span class="label">Days</span>
-  </div>
+    <div class="timer" id="timer-1">
+      <div class="field">
+        <span class="value" data-value="days">11</span>
+        <span class="label">Days</span>
+      </div>
 
-  <div class="field">
-    <span class="value" data-value="hours">11</span>
-    <span class="label">Hours</span>
-  </div>
+      <div class="field">
+        <span class="value" data-value="hours">11</span>
+        <span class="label">Hours</span>
+      </div>
 
-  <div class="field">
-    <span class="value" data-value="mins">11</span>
-    <span class="label">Minutes</span>
-  </div>
+      <div class="field">
+        <span class="value" data-value="mins">11</span>
+        <span class="label">Minutes</span>
+      </div>
 
-  <div class="field">
-    <span class="value" data-value="secs">11</span>
-    <span class="label">Seconds</span>
-  </div>
-</div>
+      <div class="field">
+        <span class="value" data-value="secs">11</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
 
 Плагін - це клас CountdownTimer, екземпляр якого створює новий таймер з налаштуваннями.
 
