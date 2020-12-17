@@ -1,0 +1,30 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 40px;
+}
+
+.value {
+  display: block;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  min-width: 170px;
+
+  background-color: #f7b552;
+  color: #ffffff;
+  border-radius: 10%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+  font-size: 150px;
+}
+
+.label {
+  font-size: 30px;
+  font-weight: 600;
+
+  color: rgb(124, 122, 122);
+}
