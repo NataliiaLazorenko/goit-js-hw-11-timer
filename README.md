@@ -32,7 +32,7 @@ Cтворити плагін налаштовуваного таймера, як
 
     new CountdownTimer({
       selector: "#timer-1",
-      targetDate: new Date("Jul 17, 2019"),
+      targetDate: new Date("Jan 01, 2021"),
     });
 
 Для підрахунку значень слід використовувати такі готові формули, де time - різниця між targetDate і поточною датою.
